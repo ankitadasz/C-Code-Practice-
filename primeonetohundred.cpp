@@ -4,9 +4,9 @@ using namespace std;
 int main() {
     int i, j, count;
 
-    for (i = 2; i <= 100; i++) {
+    for (i = 1; i <= 100; i++) {
         count = 0;  
-        for (j = 2; j <= sqrt(i); j++) {
+        for (j = 2; j < i; j++) {
             if (i % j == 0) {
                 count++;  
                 break;    
